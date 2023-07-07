@@ -37,6 +37,7 @@ nav li {
 nav a {
   text-decoration: none;
   color: #474747;
+  margin-bottom: 0;
 }
 .header {
   background-color: #fff8f3;
@@ -48,4 +49,27 @@ nav a {
 }
 .banner.profile-pictue {
   width: 500px;
+}
+.banne-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+main {
+  max-width: 1140;
+  margin: 0 auto;
+}
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 130px 0;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  text-align: center;
 }
